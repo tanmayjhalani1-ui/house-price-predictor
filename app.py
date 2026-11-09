@@ -67,7 +67,6 @@ with explore_tab:
         b.metric("Median listed price", f"{data['price'].median():,.0f}")
         c.metric("Median area", f"{data['area'].median():,.0f}")
         st.write("Price distribution")
-        st.histogram if False else None
         st.bar_chart(data.groupby("bedrooms")["price"].median().rename("Median price by bedrooms"))
         st.write("Median price by furnishing status")
         st.bar_chart(data.groupby("furnishingstatus")["price"].median())
