@@ -1,3 +1,13 @@
+<div align="center">
+  <img src="assets/portfolio-banner.svg" alt="House Price Prediction — Tanmay Jhalani" width="100%" />
+</div>
+
+<div align="center">
+  <strong>Designed and engineered by Tanmay Jhalani</strong> · <a href="https://github.com/tanmayjhalani1-ui">GitHub Profile</a>
+</div>
+
+---
+
 # House Price Prediction
 
 An end-to-end regression application that extends the original house price project with reproducible model training, cross-validation, experiment tracking, an interactive dashboard, a lightweight prediction API, and containerized execution.
